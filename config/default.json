@@ -1,0 +1,23 @@
+{
+  "port": 5000,
+  "baseUrl": "http://localhost",
+  "apiV": "/api",
+
+  "jwtSecret": "kwvpkruq-2bq321o5r8n",
+  "jwtPassword": "kyxs02wd-betkcsh3wm",
+  "passwordSecret": "[&.paws%&I^%i7tsdv",
+
+  "appName": "slow-calculator",
+
+  "routes": "src/routes",
+
+  "dataBasePath": "..",
+  "databaseSuffix": "database",
+
+  "forms": "/data/forms",
+  "input-elements": "/data/input-elements",
+  "users": "/data/users",
+  "forms-input-elements": "/data/forms-input-elements",
+
+  "admin-code": "../hans-cv-database/data/admin-code"
+}

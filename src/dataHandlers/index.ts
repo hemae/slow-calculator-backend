@@ -1,0 +1,1 @@
+export {getArrayDataForResponse} from './getArrayData'

@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+//    "baseUrl": "./",
+//    "paths": {
+//      "~/*": [
+//        "src/*"
+//      ],
+//      "~t/*": [
+//        "src/tools/*"
+//      ],
+//      "~routes/*": [
+//        "src/routes/*"
+//      ],
+//      "~m/*": [
+//        "src/middlewares/*"
+//      ],
+//      "~mod/*": [
+//        "src/models/*"
+//      ],
+//      "~help/*": [
+//        "src/helpers/*"
+//      ]
+//    }
+  }
+}

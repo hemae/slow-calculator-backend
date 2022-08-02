@@ -1,0 +1,34 @@
+{
+  "port": 5000,
+  "baseUrl": "http://localhost",
+  "apiV": "/api",
+
+  "jwtSecret": "kwvpkruq-2bq321o5r8n",
+  "jwtPassword": "kyxs02wd-betkcsh3wm",
+  "passwordSecret": "[&.paws%&I^%i7tsdv",
+
+  "appName": "Andrey Arkhipov CV",
+
+  "routes": "src/routes",
+
+  "images": "../hans-cv-database/images",
+
+  "skillsImages": "../hans-cv-database/images/skills",
+  "sectionsImages": "../hans-cv-database/images/sections",
+  "experiencesImages": "../hans-cv-database/images/experiences",
+  "educationsImages": "../hans-cv-database/images/educations",
+  "languagesImages": "../hans-cv-database/images/languages",
+  "linksImages": "../hans-cv-database/images/links",
+  "projectsImages": "../hans-cv-database/images/projects",
+
+  "sections": "../hans-cv-database/data/sections",
+  "educations": "../hans-cv-database/data/educations",
+  "experiences": "../hans-cv-database/data/experiences",
+  "languages": "../hans-cv-database/data/languages",
+  "links": "../hans-cv-database/data/links",
+  "projects": "../hans-cv-database/data/projects",
+  "skills": "../hans-cv-database/data/skills",
+
+  "admins": "../hans-cv-database/data/admins",
+  "admin-code": "../hans-cv-database/data/admin-code"
+}
