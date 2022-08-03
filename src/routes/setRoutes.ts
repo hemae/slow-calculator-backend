@@ -1,7 +1,7 @@
 import {DatabaseFolderName} from '../configGetter'
 import {IRouter} from 'express'
-import {HandlerType, MyMethod, myMethods} from '../controllers/generalController/types'
-import {getControllers} from '../controllers/generalController'
+import {HandlerType, MyMethod, myMethods} from '../controllers/dataController/types'
+import {getControllers} from '../controllers/dataController'
 import {getMethodAndPath} from './helpers'
 // import {auth} from '../middlewares'
 

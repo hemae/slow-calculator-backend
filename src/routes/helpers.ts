@@ -1,4 +1,4 @@
-import {Method, MyMethod} from '../controllers/generalController/types'
+import {Method, MyMethod} from '../controllers/dataController/types'
 import {Path} from './types'
 
 
