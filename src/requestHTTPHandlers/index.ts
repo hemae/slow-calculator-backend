@@ -27,8 +27,9 @@ export function status201(res: Response, object: Record<string, any> | any[]) {
     res.status(201).json({data: object})
 }
 
-export function status200(res: Response, object: Record<string, any> | any[] | null) {
-    res.json({data: object})
+export function status200(res: Response, object: Record<string, any> | any[] | null, noDataField = false) {
+    if (noDataField) res.json(object)
+    else res.json({data: object})
 }
 
 export function status200Message(res: Response, message: string) {
