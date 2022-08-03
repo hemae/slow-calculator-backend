@@ -9,6 +9,7 @@ export type DatabaseDataFolderName =
     'forms'
     | 'input-elements'
     | 'users'
+    | 'results'
 
 export type DatabaseFolderName = DatabaseDataFolderName | DatabaseRelationFolderName
 

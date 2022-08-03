@@ -18,6 +18,7 @@
   "input-elements": "/data/input-elements",
   "users": "/data/users",
   "forms-input-elements": "/data/forms-input-elements",
+  "results": "/data/results",
 
   "admin-code": "../hans-cv-database/data/admin-code"
 }
