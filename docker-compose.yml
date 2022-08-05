@@ -6,7 +6,7 @@ services:
     ports:
       - 5000:5000
     volumes:
-      - ../slow-calculator-database:/usr/slow-calculator-database
+      - db:./slow-calculator-database
 
 networks:
   default:

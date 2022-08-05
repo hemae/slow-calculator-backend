@@ -3,3 +3,6 @@ node_modules
 
 /src/database
 src/database
+
+/slow-calculator-database
+slow-calculator-database

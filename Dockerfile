@@ -10,6 +10,8 @@ COPY ./ ./
 
 EXPOSE 5000
 
+VOLUME ["./slow-calculator-database"]
+
 USER node
 
 CMD ["yarn", "start"]
