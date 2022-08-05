@@ -8,6 +8,10 @@ services:
     volumes:
       - db:./slow-calculator-database
 
+volumes:
+  db:
+    external: true
+
 networks:
   default:
     external:
